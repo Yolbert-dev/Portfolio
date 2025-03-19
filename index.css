@@ -108,7 +108,7 @@ body {
 }
 .title{
   /* font-size: 3rem; */
-  font-size: clamp(2rem, 4vw, 5rem);
+  font-size: clamp(2rem, 4vw, 4rem);
   font-weight: 700;
   
 }
@@ -116,7 +116,7 @@ body {
 #span-title-home{
   /* font-size: 5rem; */
   /* etiqueta font-size : clamp me permite colocar en una sola linea cuanto es el minimo de tamaño , lo ideal vw(view) y lo maximo de la letra */
-  font-size: clamp(2.5rem, 5vw, 6rem);
+  font-size: clamp(2.5rem, 5vw, 5rem);
   color: var(--primary-color);
   font-weight: 700;
 }
@@ -128,7 +128,7 @@ body {
 }
 #text-main{
   text-align: justify;
-  font-size: clamp(1rem, 1vw, 1.5rem);
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
 }
 #main-btn{
     background-color: var(--primary-color);
@@ -158,23 +158,24 @@ body {
 
 }
 #title-about{
-  font-size: clamp(2.5rem, 5vw, 6rem);
+  font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   justify-content: center;
 }
 h3{
-  font-size: clamp(2rem, 4vw, 5rem);
+  font-size: clamp(2rem, 4vw, 4rem);
 }
 #span-name{
-  font-size: clamp(2rem, 4vw, 5rem);
+  font-size: clamp(2rem, 4vw, 4rem);
  
   font-weight: 700;
   color: var(--primary-color);
 }
 
 #text-about{
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
   text-align: justify;
   justify-content: center;
 }
@@ -194,7 +195,7 @@ h3{
 
 }
 #title-portfolio{
-  font-size: clamp(2.5rem, 5vw, 6rem);
+  font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
